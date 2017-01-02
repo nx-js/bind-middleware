@@ -1,0 +1,27 @@
+{
+  "name": "@nx-js/bind-middleware",
+  "version": "1.0.0",
+  "description": "An NX data-binding middlware.",
+  "main": "bind.js",
+  "author": {
+    "name": "Miklos Bertalan",
+    "email": "miklos.bertalan@risingstack.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nx-js/bind-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nx-js/bind-middleware/issues"
+  },
+  "homepage": "http://nx-framework.com",
+  "license": "MIT",
+  "keywords": [
+    "nx",
+    "middleware",
+    "data-binding"
+  ],
+  "peerDependencies": {
+    "@nx-js/bindable-middleware": "^1.0.0"
+  }
+}
