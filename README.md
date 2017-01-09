@@ -8,7 +8,7 @@ The `bind` middleware makes the `input`, `select` and `textarea` elements bindab
 - processes: element nodes
 - throws on: nothing
 - use as: component or content middleware
-- [docs](http://nx-framework/docs/middlewares/bind)
+- [docs](http://nx-framework.com/docs/middlewares/bind)
 
 ## Installation
 
