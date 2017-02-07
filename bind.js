@@ -13,6 +13,7 @@ function bind (elem) {
 }
 bind.$name = 'bind'
 bind.$require = ['bindable']
+bind.$type = ['component', 'content']
 module.exports = bind
 
 function isInput (elem) {

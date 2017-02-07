@@ -5,9 +5,8 @@ The `bind` middleware makes the `input`, `select` and `textarea` elements bindab
 - name: bind
 - middleware dependencies: [bindable](https://github.com/nx-js/bindable-middleware)
 - all middleware dependencies: [observe](https://github.com/nx-js/observe-middleware), [attributes](https://github.com/nx-js/attributes-middleware), [bindable](https://github.com/nx-js/bindable-middleware)
-- processes: element nodes
-- throws on: nothing
-- use as: component or content middleware
+- type: component or content middleware
+- ignores: text nodes
 - [docs](http://nx-framework.com/docs/middlewares/bind)
 
 ## Installation
